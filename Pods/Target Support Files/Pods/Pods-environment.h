@@ -1,0 +1,116 @@
+
+// To check if a library is compiled with CocoaPods you
+// can use the `COCOAPODS` macro definition which is
+// defined in the xcconfigs so it is available in
+// headers also when they are imported in the client
+// project.
+
+
+// AFNetworking
+#define COCOAPODS_POD_AVAILABLE_AFNetworking
+#define COCOAPODS_VERSION_MAJOR_AFNetworking 2
+#define COCOAPODS_VERSION_MINOR_AFNetworking 4
+#define COCOAPODS_VERSION_PATCH_AFNetworking 1
+
+// AFNetworking/NSURLConnection
+#define COCOAPODS_POD_AVAILABLE_AFNetworking_NSURLConnection
+#define COCOAPODS_VERSION_MAJOR_AFNetworking_NSURLConnection 2
+#define COCOAPODS_VERSION_MINOR_AFNetworking_NSURLConnection 4
+#define COCOAPODS_VERSION_PATCH_AFNetworking_NSURLConnection 1
+
+// AFNetworking/NSURLSession
+#define COCOAPODS_POD_AVAILABLE_AFNetworking_NSURLSession
+#define COCOAPODS_VERSION_MAJOR_AFNetworking_NSURLSession 2
+#define COCOAPODS_VERSION_MINOR_AFNetworking_NSURLSession 4
+#define COCOAPODS_VERSION_PATCH_AFNetworking_NSURLSession 1
+
+// AFNetworking/Reachability
+#define COCOAPODS_POD_AVAILABLE_AFNetworking_Reachability
+#define COCOAPODS_VERSION_MAJOR_AFNetworking_Reachability 2
+#define COCOAPODS_VERSION_MINOR_AFNetworking_Reachability 4
+#define COCOAPODS_VERSION_PATCH_AFNetworking_Reachability 1
+
+// AFNetworking/Security
+#define COCOAPODS_POD_AVAILABLE_AFNetworking_Security
+#define COCOAPODS_VERSION_MAJOR_AFNetworking_Security 2
+#define COCOAPODS_VERSION_MINOR_AFNetworking_Security 4
+#define COCOAPODS_VERSION_PATCH_AFNetworking_Security 1
+
+// AFNetworking/Serialization
+#define COCOAPODS_POD_AVAILABLE_AFNetworking_Serialization
+#define COCOAPODS_VERSION_MAJOR_AFNetworking_Serialization 2
+#define COCOAPODS_VERSION_MINOR_AFNetworking_Serialization 4
+#define COCOAPODS_VERSION_PATCH_AFNetworking_Serialization 1
+
+// AFNetworking/UIKit
+#define COCOAPODS_POD_AVAILABLE_AFNetworking_UIKit
+#define COCOAPODS_VERSION_MAJOR_AFNetworking_UIKit 2
+#define COCOAPODS_VERSION_MINOR_AFNetworking_UIKit 4
+#define COCOAPODS_VERSION_PATCH_AFNetworking_UIKit 1
+
+// ActionSheetPicker-3.0
+#define COCOAPODS_POD_AVAILABLE_ActionSheetPicker_3_0
+#define COCOAPODS_VERSION_MAJOR_ActionSheetPicker_3_0 1
+#define COCOAPODS_VERSION_MINOR_ActionSheetPicker_3_0 1
+#define COCOAPODS_VERSION_PATCH_ActionSheetPicker_3_0 21
+
+// DTAlertView
+#define COCOAPODS_POD_AVAILABLE_DTAlertView
+#define COCOAPODS_VERSION_MAJOR_DTAlertView 1
+#define COCOAPODS_VERSION_MINOR_DTAlertView 2
+#define COCOAPODS_VERSION_PATCH_DTAlertView 1
+
+// FXBlurView
+#define COCOAPODS_POD_AVAILABLE_FXBlurView
+#define COCOAPODS_VERSION_MAJOR_FXBlurView 1
+#define COCOAPODS_VERSION_MINOR_FXBlurView 6
+#define COCOAPODS_VERSION_PATCH_FXBlurView 2
+
+// FontAwesomeKit
+#define COCOAPODS_POD_AVAILABLE_FontAwesomeKit
+#define COCOAPODS_VERSION_MAJOR_FontAwesomeKit 2
+#define COCOAPODS_VERSION_MINOR_FontAwesomeKit 1
+#define COCOAPODS_VERSION_PATCH_FontAwesomeKit 8
+
+// FontAwesomeKit/Core
+#define COCOAPODS_POD_AVAILABLE_FontAwesomeKit_Core
+#define COCOAPODS_VERSION_MAJOR_FontAwesomeKit_Core 2
+#define COCOAPODS_VERSION_MINOR_FontAwesomeKit_Core 1
+#define COCOAPODS_VERSION_PATCH_FontAwesomeKit_Core 8
+
+// FontAwesomeKit/FontAwesome
+#define COCOAPODS_POD_AVAILABLE_FontAwesomeKit_FontAwesome
+#define COCOAPODS_VERSION_MAJOR_FontAwesomeKit_FontAwesome 2
+#define COCOAPODS_VERSION_MINOR_FontAwesomeKit_FontAwesome 1
+#define COCOAPODS_VERSION_PATCH_FontAwesomeKit_FontAwesome 8
+
+// FontAwesomeKit/FoundationIcons
+#define COCOAPODS_POD_AVAILABLE_FontAwesomeKit_FoundationIcons
+#define COCOAPODS_VERSION_MAJOR_FontAwesomeKit_FoundationIcons 2
+#define COCOAPODS_VERSION_MINOR_FontAwesomeKit_FoundationIcons 1
+#define COCOAPODS_VERSION_PATCH_FontAwesomeKit_FoundationIcons 8
+
+// FontAwesomeKit/IonIcons
+#define COCOAPODS_POD_AVAILABLE_FontAwesomeKit_IonIcons
+#define COCOAPODS_VERSION_MAJOR_FontAwesomeKit_IonIcons 2
+#define COCOAPODS_VERSION_MINOR_FontAwesomeKit_IonIcons 1
+#define COCOAPODS_VERSION_PATCH_FontAwesomeKit_IonIcons 8
+
+// FontAwesomeKit/Zocial
+#define COCOAPODS_POD_AVAILABLE_FontAwesomeKit_Zocial
+#define COCOAPODS_VERSION_MAJOR_FontAwesomeKit_Zocial 2
+#define COCOAPODS_VERSION_MINOR_FontAwesomeKit_Zocial 1
+#define COCOAPODS_VERSION_PATCH_FontAwesomeKit_Zocial 8
+
+// JGProgressHUD
+#define COCOAPODS_POD_AVAILABLE_JGProgressHUD
+#define COCOAPODS_VERSION_MAJOR_JGProgressHUD 1
+#define COCOAPODS_VERSION_MINOR_JGProgressHUD 2
+#define COCOAPODS_VERSION_PATCH_JGProgressHUD 2
+
+// NSDate+TimeAgo
+#define COCOAPODS_POD_AVAILABLE_NSDate_TimeAgo
+#define COCOAPODS_VERSION_MAJOR_NSDate_TimeAgo 1
+#define COCOAPODS_VERSION_MINOR_NSDate_TimeAgo 0
+#define COCOAPODS_VERSION_PATCH_NSDate_TimeAgo 3
+

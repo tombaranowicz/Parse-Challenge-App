@@ -1,0 +1,14 @@
+{
+    "applications": {
+        "Fyddy": {
+            "applicationId": "sBwVGWHCJZcMh0dCWYdN6rd1RCXcKzkRbNAWdtbC", 
+            "masterKey": "y3cy90sIAhQXUL3Tqx3Jexo80fFy8wUfp2XmxdsM"
+        }, 
+        "_default": {
+            "link": "Fyddy"
+        }
+    }, 
+    "global": {
+        "parseVersion": "1.3.0"
+    }
+}

@@ -1,0 +1,37 @@
+//
+//  PrefixHeader.pch
+//  ChallengeApp
+//
+//  Created by Tomasz Baranowicz on 10/26/14.
+//  Copyright (c) 2014 Direct Solutions. All rights reserved.
+//
+
+#ifndef ChallengeApp_PrefixHeader_pch
+#define ChallengeApp_PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import "Utils.h"
+
+#endif
+
+#define PROJECT_NAME @"Let's Challenge Me"
+
+#ifdef DEBUG
+#define DLOG(format, ...)  NSLog(format, ##__VA_ARGS__)
+#define DETAIL_LOG(format, ...)	 NSLog((@"%@ [Line %d] " format), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__)
+#define POINT_LOG(name, point)  NSLog(@"%@ : %@", name, NSStringFromCGPoint(point))
+#define SIZE_LOG(name, size)  NSLog(@"%@ : %@", name, NSStringFromCGSize(size))
+#define RECT_LOG(name, rect)  NSLog(@"%@ : %@", name, NSStringFromCGRect(rect))
+#define TRACE(format, ...)  NSLog([NSString stringWithFormat:@"%@.%@:%@",[self class],NSStringFromSelector(_cmd),format], ##__VA_ARGS__)
+#else
+#define DLOG(format, ...)
+#define DETAIL_LOG(format, ...)
+#define POINT_LOG(name, point)
+#define SIZE_LOG(name, size)
+#define RECT_LOG(name, rect)
+#define TRACE(format, ...)
+#endif
+
+#define TABBAR_HEIGHT 49

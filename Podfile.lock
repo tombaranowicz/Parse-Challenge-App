@@ -1,0 +1,62 @@
+PODS:
+  - ActionSheetPicker-3.0 (1.1.21)
+  - AFNetworking (2.4.1):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+    - AFNetworking/UIKit
+  - AFNetworking/NSURLConnection (2.4.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.4.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.4.1)
+  - AFNetworking/Security (2.4.1)
+  - AFNetworking/Serialization (2.4.1)
+  - AFNetworking/UIKit (2.4.1):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - DTAlertView (1.2.1)
+  - FontAwesomeKit (2.1.8):
+    - FontAwesomeKit/Core
+    - FontAwesomeKit/FontAwesome
+    - FontAwesomeKit/FoundationIcons
+    - FontAwesomeKit/IonIcons
+    - FontAwesomeKit/Zocial
+  - FontAwesomeKit/Core (2.1.8)
+  - FontAwesomeKit/FontAwesome (2.1.8):
+    - FontAwesomeKit/Core
+  - FontAwesomeKit/FoundationIcons (2.1.8):
+    - FontAwesomeKit/Core
+  - FontAwesomeKit/IonIcons (2.1.8):
+    - FontAwesomeKit/Core
+  - FontAwesomeKit/Zocial (2.1.8):
+    - FontAwesomeKit/Core
+  - FXBlurView (1.6.2)
+  - JGProgressHUD (1.2.2)
+  - NSDate+TimeAgo (1.0.3)
+
+DEPENDENCIES:
+  - ActionSheetPicker-3.0 (~> 1.1.11)
+  - AFNetworking (~> 2.4.1)
+  - DTAlertView
+  - FontAwesomeKit (~> 2.1)
+  - FXBlurView (~> 1.6)
+  - JGProgressHUD (~> 1.2.2)
+  - NSDate+TimeAgo (~> 1.0.3)
+
+SPEC CHECKSUMS:
+  ActionSheetPicker-3.0: 710a485097a467de2900e2a286c680bd49e4ce1e
+  AFNetworking: 0aabc6fae66d6e5d039eeb21c315843c7aae51ab
+  DTAlertView: 887b49e37fe9cc3ea6c07a6a5e02ae768cf82cfd
+  FontAwesomeKit: a2edea3111dab107b4cc43b85881b404eb063385
+  FXBlurView: 47496afc9160097fa34af35fc4b310bd85d65dca
+  JGProgressHUD: a7c58f711eec0b67f257a0821c0bac9194c72398
+  NSDate+TimeAgo: f3533e0198fab05b716368b19f8c2185d53d6f3b
+
+COCOAPODS: 0.34.4

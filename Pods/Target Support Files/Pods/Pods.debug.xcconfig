@@ -1,0 +1,6 @@
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/AFNetworking" "${PODS_ROOT}/Headers/Public/ActionSheetPicker-3.0" "${PODS_ROOT}/Headers/Public/DTAlertView" "${PODS_ROOT}/Headers/Public/FXBlurView" "${PODS_ROOT}/Headers/Public/FontAwesomeKit" "${PODS_ROOT}/Headers/Public/JGProgressHUD" "${PODS_ROOT}/Headers/Public/NSDate+TimeAgo"
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/AFNetworking" -isystem "${PODS_ROOT}/Headers/Public/ActionSheetPicker-3.0" -isystem "${PODS_ROOT}/Headers/Public/DTAlertView" -isystem "${PODS_ROOT}/Headers/Public/FXBlurView" -isystem "${PODS_ROOT}/Headers/Public/FontAwesomeKit" -isystem "${PODS_ROOT}/Headers/Public/JGProgressHUD" -isystem "${PODS_ROOT}/Headers/Public/NSDate+TimeAgo"
+OTHER_LDFLAGS = -ObjC -l"Pods-AFNetworking" -l"Pods-ActionSheetPicker-3.0" -l"Pods-DTAlertView" -l"Pods-FXBlurView" -l"Pods-FontAwesomeKit" -l"Pods-JGProgressHUD" -l"Pods-NSDate+TimeAgo" -framework "Accelerate" -framework "CoreGraphics" -framework "CoreText" -framework "Foundation" -framework "MobileCoreServices" -framework "QuartzCore" -framework "Security" -framework "SystemConfiguration" -framework "UIKit"
+OTHER_LIBTOOLFLAGS = $(OTHER_LDFLAGS)
+PODS_ROOT = ${SRCROOT}/Pods
